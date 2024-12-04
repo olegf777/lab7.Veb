@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.accordion, .menu, .tabs {
+    margin: 20px 0;
+}
+
+.ui-datepicker {
+    font-size: 14px;
+}
+
+.owl-carousel .item {
+    text-align: center;
+}
+
+.owl-carousel .item img {
+    width: 100%;
+    height: auto;
+}
+
+#gallery {
+    margin: 20px 0;
+}

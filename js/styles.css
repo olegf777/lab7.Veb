@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+h2 {
+    color: blue;
+    margin: 30px 0 10px;
+}
+
+.owl-carousel .item {
+    border: 5px solid #00FFCC;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.owl-carousel .item img {
+    width: 100%;
+    height: auto;
+}
+
+#gallery {
+    margin: 30px 0;
+}
+
+.unite-gallery .ug-thumb-wrapper {
+    border: 3px solid #00FFCC;
+    border-radius: 10px;
+}
+
+.unite-gallery .ug-thumb-image {
+    border-radius: 5px;
+}
+
+.unite-gallery .ug-textpanel {
+    background: rgba(0, 0, 0, 0.7);
+    color: #FFFFFF;
+    border-radius: 5px;
+    padding: 5px;
+}
+/* Accordion стилі */
+#accordion h3 {
+    background-color: #0066FF;
+    color: white;
+    padding: 10px;
+    margin: 0;
+    border-bottom: 1px solid #ddd;
+}
+
+#accordion div {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+/* Datepicker стилі */
+#datepicker {
+    margin: 10px 0;
+}
+
+/* Tabs стилі */
+#tabs {
+    margin-top: 20px;
+}
+
+#tabs ul {
+    background-color: #ddd;
+    padding: 5px;
+}
+
+#tabs ul li {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+#tabs ul li a {
+    color: black;
+    padding: 5px;
+    text-decoration: none;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+}
+
+#tabs ul li a:hover {
+    background-color: #f2f2f2;
+}
+/* Unite Gallery стилі */
+#gallery {
+    margin-top: 20px;
+}

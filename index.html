@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Динамічна сторінка</title>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/unitegallery/1.7.40/css/unite-gallery.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/unitegallery@1.7.53/dist/css/unite-gallery.css">
+</head>
+<body>
+    <h1>Динамічна сторінка з jQuery</h1>
+<!-- Accordion -->
+<h2>Accordion</h2>
+<div id="accordion">
+    <h3>Розділ 1</h3>
+    <div>
+        <p>jQuery — це швидка, невелика та багатофункціональна бібліотека JavaScript. Це значно спрощує такі речі, як обхід HTML-документів і маніпуляції з ними, обробка подій, анімація та Ajax завдяки простому у використанні API, який працює в багатьох браузерах.</p>
+    </div>
+    <h3>Розділ 2</h3>
+    <div>
+        <p>jQuery — це швидка, невелика та багатофункціональна бібліотека JavaScript. Це значно спрощує такі речі, як обхід HTML-документів і маніпуляції з ними, обробка подій, анімація та Ajax завдяки простому у використанні API, який працює в багатьох браузерах. Якщо ви не знайомі з jQuery, рекомендуємо відвідати навчальний центр jQuery..</p>
+    </div>
+    <h3>Розділ 3</h3>
+    <div>
+        <p>Сумісність із останніми версіями jQuery (до 3.7): використання застарілих API jQuery було вилучено. jQuery UI 1.14.0 не викликає попереджень jQuery Migrate під час запуску свого тестового набору з jQuery 3.7.1 з jQuery Migrate 3.5.2, тобто. останні версії на момент випуску.
+
+            jQuery 3.7.1
+            jQuery UI 1.14.0
+            jQuery (до 3.7)</p>
+    </div>
+    <h3>Розділ 4</h3>
+    <div>
+        <p>Команда jQuery знає все про міжбраузерні проблеми, і вони записали ці знання в бібліотеку jQuery. jQuery буде працювати точно так само у всіх основних браузерах.
+
+            jQuery приймає багато загальних завдань, які вимагають багато рядків JavaScript коду для виконання, і обгортає їх в методи, які можна викликати за допомогою одного рядка коду.</p>
+    </div>
+</div>
+
+<!-- Datepicker -->
+<h2>Datepicker</h2>
+<label for="datepicker">Date:</label>
+<input type="text" id="datepicker">
+
+<!-- Tabs -->
+<h2>Tabs</h2>
+<div id="tabs">
+    <ul>
+        <li><a href="#tabs-1">jQuery</a></li>
+        <li><a href="#tabs-2">Мета</a></li>
+        <li><a href="#tabs-3">Висновок</a></li>
+    </ul>
+    <div id="tabs-1">
+        <p>Бібліотека jQuery містить наступні функції для спрощення роботи з JavaScript.</p>
+    </div>
+    <div id="tabs-2">
+        <p>Мета використання бібліотеки — значно полегшити використання JavaScript на вашому сайті.</p>
+    </div>
+    <div id="tabs-3">
+        <p>Висновок: jQuery значно полегшує розробку веб-додатків.</p>
+    </div>
+</div>
+
+    <!-- OwlCarousel -->
+    <h2>OwlCarousel</h2>
+    <div class="owl-carousel owl-theme">
+        <div class="item"><img src="image/Kyiv.jpg" alt="Фото 1"></div>
+        <div class="item"><img src="image/Harkiv.jpg" alt="Фото 2"></div>
+        <div class="item"><img src="image/Lviv.jpg" alt="Фото 3"></div>
+        <div class="item"><img src="image/Odesa.jpg" alt="Фото 4"></div>
+        <div class="item"><img src="image/Dnipro.jpg" alt="Фото 5"></div>
+    </div>
+
+    <!-- UniteGallery -->
+    <h2>Unite Gallery</h2>
+    <div id="gallery" style="display:none;">
+        <img alt="Фото 1" src="image/Kyiv.jpg" data-image="image/Kyiv.jpg" data-description="Nature 1">
+        <img alt="Фото 2" src="image/Harkiv.jpg" data-image="image/Harkiv.jpg" data-description="Nature 2">
+        <img alt="Фото 3" src="image/Lviv.jpg" data-image="image/Lviv.jpg" data-description="Nature 3">
+        <img alt="Фото 4" src="image/Odesa.jpg" data-image="image/Odesa.jpg" data-description="Nature 4">
+        <img alt="Фото 5" src="image/Dnipro.jpg" data-image="image/Dnipro.jpg" data-description="Nature 5">
+    </div>
+    
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/unitegallery/1.7.40/js/unitegallery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/unitegallery/1.7.40/themes/tiles/ug-theme-tiles.js"></script>
+    <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/unitegallery@1.7.53/dist/js/unitegallery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/unitegallery@1.7.53/dist/themes/tiles/ug-theme-tiles.js"></script>
+</body>
+</html>
